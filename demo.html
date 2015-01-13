@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible"></meta>
+	<meta content="width=device-width, initial-scale=1" name="viewport"></meta>
+	<title>dolist demo</title>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+</head>
+<body>
+
+<main class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<h1>dolist: Datalist polyfill demo</h1>
+			<p>
+				Type something below:
+			</p>
+
+			<input class="form-control" list="demo-list" name="demo" placeholder="Enter big city in Denmark..." />
+			<datalist id="demo-list">
+				<option>København</option>
+				<option>Aarhus</option>
+				<option>Odense</option>
+				<option>Aalborg</option>
+				<option>Esbjerg</option>
+				<option>Randers</option>
+				<option>Kolding</option>
+				<option>Horsens</option>
+				<option>Vejle</option>
+				<option>Roskilde</option>
+				<option>Herning</option>
+			</datalist>
+		</div>
+	</div>
+</main>
+
+<script src="dolist.js"></script>
+
+</body>
+</html>
